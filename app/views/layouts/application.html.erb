@@ -28,14 +28,19 @@
       </script>
     <% end %>
 
-    <title><%= t("bigbluebutton") %></title>
-    <meta property="og:title" content="<%= t("bigbluebutton", locale: :en) %>" />
+    <title>Onlineportal - Nachhilfe in Reutlingen und Umgebung</title>
+    <meta property="og:title" content="Onlineportal - Nachhilfe in Reutlingen und Umgebung" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :en) %>" />
+    <meta property="og:description" content="Online-Nachhilfeportal der Schüler Nachhilfe GmbH" />
     <meta property="og:url" content="<%= request.base_url %>" />
-    <meta property="og:image" content="<%= logo_image %>" />
 
     <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffffff">
+    <link rel="shortcut icon" href="favicon.ico">
+
     <%= csrf_meta_tags %>
 
     <!-- Global javascript variables and helpers. -->

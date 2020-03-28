@@ -1,0 +1,27 @@
+div.header {
+  background: #015da6 !important;
+}
+
+div.header .header-nav, .username {
+  color: #fff !important;
+}
+
+div.header .avatar {
+	background-color: #ff0000 !important;
+	color: white !important;
+}
+
+div.header a:hover:not(.btn) {
+	color: #c0e0fd !important;
+}
+
+div.header .header-nav.active {
+	color: #fff !important;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ff0000 !important;
+}
+
+div.header .btn-outline-primary {
+	border-color: #fff !important;
+	color: #fff !important;
+}
