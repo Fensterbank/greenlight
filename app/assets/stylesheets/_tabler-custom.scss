@@ -79,3 +79,17 @@
 //@import "tabler/selectize";
 
 //@import "tabler/fonts/feather";
+
+.card {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body > :last-child {
+  margin-top: auto;
+}
