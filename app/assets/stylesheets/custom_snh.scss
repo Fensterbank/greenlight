@@ -1,0 +1,16 @@
+.header {
+  background: #015da6;
+}
+
+.header .header-nav, .username {
+  color: #fff !important;
+}
+
+.header .avatar {
+	background-color: #ff0000 !important;
+	color: white !important;
+}
+
+.header a:hover:not(.btn) {
+	color: #c0e0fd !important !important;
+}
